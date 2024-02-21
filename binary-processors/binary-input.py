@@ -11,8 +11,8 @@ def binary_to_text(binary_module):
 
 
 def main():
-    # Example usage
-    binary_module = "01010101 01100100 01100101 01110010 00100000 01010100 01100101 01111000 01110100" # Example module
+    # User input module, 8-bit sets
+    binary_module = input("Enter the binary module: ")
     decoded_text = binary_to_text(binary_module)
     print("Decoded text:", decoded_text)
 
