@@ -28,7 +28,7 @@ def analyze_binary_file(file_path):
     }
     return analysis_results
 
-
+# Define main loop
 def main():
     file_path = input("Enter the path to the binary file: ")
     analysis_results = analyze_binary_file(file_path)
@@ -37,5 +37,6 @@ def main():
         print(f"{key}: {value}")
 
 
+# Run main loop
 if __name__ == "__main__":
     main()
